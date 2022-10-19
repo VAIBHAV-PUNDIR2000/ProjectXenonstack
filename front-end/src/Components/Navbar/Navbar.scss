@@ -1,0 +1,53 @@
+.root__navbar-main{
+    height: 8vh;
+    // overflow-x: hidden;
+display: flex;
+// position: fixed;
+// top: 0px;
+    align-items: center;
+    padding: 8px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    img{
+        user-select: none;
+        object-fit: contain;
+        max-height: 40px;
+    }
+    :nth-child(n){
+        margin: 1rem;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+
+    .links{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: black;
+        text-transform: capitalize;
+    }
+}
+
+.Menu{
+    background-color: var(--white-color);
+}
+.dropdownbox{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 1px;
+    background-color:var(--white-color);
+   
+    border-radius:4px ;
+    padding: 1rem;
+    li
+    {
+        color:var(--black-color) ;
+        list-style-type: none; /* Remove bullets */
+        
+    }
+
+}
